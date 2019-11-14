@@ -1,0 +1,20 @@
+* {
+    margin:0;
+    padding:0;
+    }
+
+nav{
+    position: relative;
+}
+
+.sectionUn{
+    color:white;
+    height: 100vh;
+    background-color:#D90647 ;
+}
+.leftun{
+    height: 30%;
+}
+.rightun{
+    height: 15%;
+}
