@@ -156,3 +156,10 @@ nav{
 .fonctionnalite h4{
     font-size: 3em;
 }
+
+.sectioncinq{
+    display: flex;
+}
+.sectioncinq h2{
+    font-size: 3vh;
+}
