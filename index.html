@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+    <!-- link pour materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -12,7 +12,8 @@
     <title>Maquette</title>
 </head>
 
-<body>
+<body>  
+    <!-- réalisation de la navbar -->
     <header>
         <nav>
             <div class="nav-wrapper navbar-fixed">
@@ -25,7 +26,7 @@
                     <li><a href="#">BLOG</a></li>
                 </ul>
             </div>
-
+            <!-- navbar version mobile -->
         </nav>
             <ul class="sidenav" id="mobile-demo">
                 <li><a href="#">About</a></li>
@@ -35,7 +36,7 @@
             </ul>
     
     </header>
-
+            <!-- réalisation de l'écran d'arriver -->
     <section class="sectionUn">
 
         <div class="leftun">
@@ -49,10 +50,12 @@
         </div>
 
     </section> 
+    <!-- img de l'iphone qui seras remonter -->
     <div class="row rightun">
           <img src="img/iPhone7Silver.png" alt="Un Iphone 7 sur un écran de messagerie" class="col s10 offset-s1 m5 offset-m7">
     </div>
 
+        <!-- 2nd section avec titre et texte -->
     <section class="sectiondeux">
         <div class="row">
             <div class="col s12">
@@ -60,13 +63,13 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis minima ducimus asperiores accusamus officia dolorum molestias deleniti, 
                         nam libero exercitationem impedit, vel reprehenderit praesentium saepe ullam maiores, illum non quo.</p>
             </div>
-
+        <!-- les deux images superposé, la taille est faite selon la grille col puis déplacer en absolute -->
             <div class="placeimg col s12">
                 <img  class=" inferieurimg img "src="img/Messages.jpg" alt="une image de messages sur un smartphone">
                 <img  class=" superposeimg img "src="img/Conversation.jpg" alt="une autre image de messages sur un smartphone">
             </div>
         </div>
-
+        <!-- la même chose, mais la 2nd fois -->
         <div class="row">
                 <div class="col s12 m12">
                         <h2>Keep in touch</h2>
@@ -79,24 +82,89 @@
                 </div>
             </div>
     </section>
+        <!--section des commentaire de l'appli -->
 
     <section class="sectiontrois">
         <div class="row">
             <div class="col s12 m12 l12">
                 <h2>What people say</h2>
-        
+
+             <!-- premier commentateur  -->
                 <div class="speech-bubble">
                     <div class="triangle"></div>
                     <p>Les gens disent que je suis un jambon! quelqu'un de bien quoi! ce n'est pas ma superbe barbe qui me permettras de dire le contraire</p>
                     <a href="http://Booking.com">Booking.com</a>
                 </div>
-                <div class=" col s12 m12 l12">
-                    <img class="col s6" src="img/Warstwa787.jpg" alt="Photo du posteur du message">
+                
+                    <div class="posteur posteurun col s3"></div>
+                    <p class="NameCom"> John Doe </p>
+                    <p class="roleCom">CEO</p>
+                
+
+             <!-- second commentateur -->
+
+                 <div class="speech-bubble">
+                    <div class="triangle"></div>
+                    <p>Les gens disent que je suis un jambon! quelqu'un de bien quoi! ce n'est pas ma superbe barbe qui me permettras de dire le contraire</p>
+                    <a href="http://Booking.com">Booking.com</a>
+                </div> 
+
+                
+                    <div class="posteur posteurdeux col s3"></div>
+                    <p class="NameCom"> John Doe </p>
+                    <p class="roleCom">CEO</p>
+            
+            <!-- premier commentateur  -->
+                <div class="speech-bubble">
+                    <div class="triangle"></div>
+                    <p>Les gens disent que je suis un jambon! quelqu'un de bien quoi! ce n'est pas ma superbe barbe qui me permettras de dire le contraire</p>
+                    <a href="http://Booking.com">Booking.com</a>
+                </div>
+                
+                <div class="posteur posteurun col s3"></div>
                     <p class="NameCom"> John Doe </p>
                     <p class="roleCom">CEO</p>
                 </div>
+    </section>
+
+    <section class="sectionquatre">
+
+        <div class="fonctionnalite row">
+            <div class="col s12">
+                <img src="img/Vector Smart Object3.png" alt="logo">
+                <h4>start Conversation</h4>
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Distinctio unde beatae quasi incidunt saepe consectetur totam nulla autem perferendis 
+                    cupiditate laborum, laboriosam, dolorem odit ipsum reiciendis optio, accusamus placeat hic
+                </p>
+
+                <img src="img/Vector Smart Object.png" alt="logo">
+                <h4>Take a picture </h4>
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Distinctio unde beatae quasi incidunt saepe consectetur totam nulla autem perferendis 
+                    cupiditate laborum, laboriosam, dolorem odit ipsum reiciendis optio, accusamus placeat hic
+                </p>
+
+                <img src="img/Vector Smart Object2.png" alt="logo">
+                <h4>Make a free call</h4>
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Distinctio unde beatae quasi incidunt saepe consectetur totam nulla autem perferendis 
+                    cupiditate laborum, laboriosam, dolorem odit ipsum reiciendis optio, accusamus placeat hic
+                </p>
+
+                <img src="img/Vector Smart Object4.png" alt="logo">
+                <h4>Send your video </h4>
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Distinctio unde beatae quasi incidunt saepe consectetur totam nulla autem perferendis 
+                    cupiditate laborum, laboriosam, dolorem odit ipsum reiciendis optio, accusamus placeat hic
+                </p>
             </div>
+
         </div>
+
+        <!-- <div class="fonctionnalite"></div>
+        <div class="fonctionnalite"></div>
+        <div class="fonctionnalite"></div> -->
     </section>
   
     <script src="js/script.js"></script>
