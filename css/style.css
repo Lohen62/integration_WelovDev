@@ -1,20 +1,113 @@
-* {
-    margin:0;
-    padding:0;
-    }
+body{
+ margin: 0;
+ overflow: unset;
+}
 
+h2 {
+    margin: 0;
+}
 nav{
-    position: relative;
+    position: fixed;
+    z-index: 50;
 }
 
 .sectionUn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
     color:white;
-    height: 100vh;
-    background-color:#D90647 ;
+    height: 120vh;
+    background: rgb(253,187,45);
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(217,6,71,1) 93%);
+    clip-path: polygon(0 1%, 100% 0, 100% 76%, 0% 100%);
+    margin-bottom: 15%;
 }
+
 .leftun{
-    height: 30%;
+    height: 75%;
+    padding-top: 20%;
 }
 .rightun{
-    height: 15%;
+    position: absolute;
+    top: 45%;
+}
+
+.Download{
+    max-width: 33vw;
+    border-radius: 25%;
+    background-color:white ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+}
+
+.sectiondeux{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sectiondeux p{
+    padding-bottom: 8%;
+}
+.sectiondeux h2{
+    padding-bottom: 3%;
+    font-size: 3em;
+}
+.placeimg{
+    position: relative;
+    height: 80vh;
+}
+.img{
+    position: absolute;
+    width: 60%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.inferieurimg{
+    left: 0;
+}
+.superposeimg{
+    right: 0;
+    bottom: 0;
+    
+} 
+.secondinferieurimg{
+    right: 0;
+}
+.secondsuperposeimg{
+    left: 0;
+    bottom: 0;
+    margin-bottom: 5%;
+}
+
+.sectiontrois{
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.say{
+    border: solid black 1px;
+    margin: 6% 0;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #bbbbbb;
+    border-radius: .4em;
+    margin-bottom: 15%;
+    border: solid black 1px;
+}
+.triangle{
+    position: absolute;
+    bottom: -15%;
+    left: 10%;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    background-color:#bbbbbb ;
+    border-top: none;
+    border-left: none;
 }
