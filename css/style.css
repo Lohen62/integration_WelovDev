@@ -3,8 +3,13 @@ body{
  overflow: unset;
 }
 
-h2 {
+h2, h3, h4, h1{
     margin: 0;
+    font-weight: bold;
+    font-size: 60px;
+}
+p{
+    font-size: 18px;
 }
 nav{
     position: fixed;
@@ -18,8 +23,7 @@ nav{
     align-items: center;
     color:white;
     height: 120vh;
-    background: rgb(253,187,45);
-    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(217,6,71,1) 93%);
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(217,6,71,1) 49%);
     clip-path: polygon(0 1%, 100% 0, 100% 76%, 0% 100%);
     margin-bottom: 15%;
 }
@@ -35,11 +39,15 @@ nav{
 
 .Download{
     max-width: 33vw;
-    border-radius: 25%;
+    border-radius: 25px;
     background-color:white ;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 8%;
+}
+.sectionUn a{
+    color: #D90647;
+    font-weight: bold;
 }
 
 .sectiondeux{
@@ -53,7 +61,6 @@ nav{
 }
 .sectiondeux h2{
     padding-bottom: 3%;
-    font-size: 3em;
 }
 .placeimg{
     position: relative;
@@ -106,7 +113,7 @@ nav{
 
 .triangle{
     position: absolute;
-    bottom: -14%;
+    bottom: -9%;
     left: 10%;
     border: 1px solid black;
     width: 30px;
@@ -154,12 +161,49 @@ nav{
     height: 12vh;
 }
 .fonctionnalite h4{
-    font-size: 3em;
 }
 
 .sectioncinq{
     display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 .sectioncinq h2{
-    font-size: 3vh;
+    margin-top: 5%;
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    background-color: rgba(179, 177, 177, 0.74);
+    border-radius: 50px;
+    
+}
+.sectioncinq label{
+    color: rgb(82, 81, 81);
+}
+.btnsub{
+    position: relative;
+    top: 40%;
+    height: 30%;
+    border-radius: 50px;
+    color:white;
+    background-color: red;
+   
+}
+
+.hash{ 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(217,6,71,1) 49%);
+    font-weight: bold;
+    height: 15vh;
+    border-radius: 25px;
+}
+
+.hash p{
+   font-size: 3.5em;
 }
