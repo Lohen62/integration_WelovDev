@@ -1,209 +1,207 @@
 body{
- margin: 0;
- overflow: unset;
-}
-
-h2, h3, h4, h1{
     margin: 0;
-    font-weight: bold;
-    font-size: 60px;
-}
-p{
-    font-size: 18px;
-}
-nav{
-    position: fixed;
-    z-index: 50;
-}
-
-.sectionUn{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    color:white;
-    height: 120vh;
-    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(217,6,71,1) 49%);
-    clip-path: polygon(0 1%, 100% 0, 100% 76%, 0% 100%);
-    margin-bottom: 15%;
-}
-
-.leftun{
-    height: 75%;
-    padding-top: 20%;
-}
-.rightun{
-    position: absolute;
-    top: 45%;
-}
-
-.Download{
-    max-width: 33vw;
-    border-radius: 25px;
-    background-color:white ;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 8%;
-}
-.sectionUn a{
-    color: #D90647;
-    font-weight: bold;
-}
-
-.sectiondeux{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.sectiondeux p{
-    padding-bottom: 8%;
-}
-.sectiondeux h2{
-    padding-bottom: 3%;
-}
-.placeimg{
-    position: relative;
-    height: 80vh;
-}
-.img{
-    position: absolute;
-    width: 60%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-.inferieurimg{
-    left: 0;
-}
-.superposeimg{
-    right: 0;
-    bottom: 0;
-    
-} 
-.secondinferieurimg{
-    right: 0;
-}
-.secondsuperposeimg{
-    left: 0;
-    bottom: 0;
-    margin-bottom: 5%;
-}
-
-.sectiontrois{
-  
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.say{
-    border: solid black 1px;
-    margin: 6% 0;
-}
-
-.speech-bubble {
-	position: relative;
-	background: #bbbbbb;
-    border-radius: .4em;
-    margin: 15% 0%;
-    border: solid black 1px;
-}
-.speech-bubble:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.triangle{
-    position: absolute;
-    bottom: -9%;
-    left: 10%;
-    border: 1px solid black;
-    width: 30px;
-    height: 30px;
-    transform: rotate(45deg);
-    background-color:#bbbbbb ;
-    border-top: none;
-    border-left: none;
-}
-.posteur{
-    height: 10vh;
-    border-radius: 50% 50% 50% 50%;
-    
-    
-}
-.posteurun{ 
-    background-image: url("../img/Warstwa787.jpg");
-    background-position-x: -2.5vh;
-    background-size: 35vh;
-}
-.posteurdeux{
-    background-image: url("../img/Warstwa882.jpg");
-    background-position-x: -7vh;
-    background-size: 22vh;
-}
-
-.posteur:hover{
-    transform: scale(1.3);
-    transition: 1s;
-}
-
-.sectionquatre{
-    height: auto;
-    background: linear-gradient(0deg, rgb(253, 111, 45) 0%, rgba(217,6,71,1) 93%);
-
-}
-.fonctionnalite{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color:white;
-}
-.fonctionnalite img{
-    padding-top: 2%;
-    height: 12vh;
-}
-.fonctionnalite h4{
-}
-
-.sectioncinq{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.sectioncinq h2{
-    margin-top: 5%;
-}
-.mail{
-    display: flex;
-    flex-direction: row;
-    margin: 5%;
-    background-color: rgba(179, 177, 177, 0.74);
-    border-radius: 50px;
-    
-}
-.sectioncinq label{
-    color: rgb(82, 81, 81);
-}
-.btnsub{
-    position: relative;
-    top: 40%;
-    height: 30%;
-    border-radius: 50px;
-    color:white;
-    background-color: red;
+    overflow: unset;
+   }
    
-}
-
-.hash{ 
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(217,6,71,1) 49%);
-    font-weight: bold;
-    height: 15vh;
-    border-radius: 25px;
-}
-
-.hash p{
-   font-size: 3.5em;
-}
+   h2, h3, h4, h1{
+       margin: 0;
+       font-weight: bold;
+       font-size: 60px;
+   }
+   p{
+       font-size: 18px;
+   }
+   nav{
+       position: fixed;
+       z-index: 50;
+   }
+   
+   .sectionUn{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+       color:white;
+       height: 120vh;
+       background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(217,6,71,1) 49%);
+       clip-path: polygon(0 1%, 100% 0, 100% 76%, 0% 100%);
+       margin-bottom: 15%;
+   }
+   
+   .leftun{
+       height: 75%;
+       padding-top: 20%;
+   }
+   .rightun{
+       position: absolute;
+       top: 45%;
+   }
+   
+   .Download{
+       max-width: 33vw;
+       border-radius: 25px;
+       background-color:white ;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 8%;
+   }
+   .sectionUn a{
+       color: #D90647;
+       font-weight: bold;
+   }
+   
+   .sectiondeux{
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+   }
+   .sectiondeux p{
+       padding-bottom: 8%;
+   }
+   .sectiondeux h2{
+       padding-bottom: 3%;
+   }
+   .placeimg{
+       position: relative;
+       height: 80vh;
+   }
+   .img{
+       position: absolute;
+       width: 60%;
+       box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   }
+   .inferieurimg{
+       left: 0;
+   }
+   .superposeimg{
+       right: 0;
+       bottom: 0;
+       
+   } 
+   .secondinferieurimg{
+       right: 0;
+   }
+   .secondsuperposeimg{
+       left: 0;
+       bottom: 0;
+       margin-bottom: 5%;
+   }
+   
+   .sectiontrois{
+     
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+   }
+   .say{
+       border: solid black 1px;
+       margin: 6% 0;
+   }
+   
+   .speech-bubble {
+       position: relative;
+       background: #bbbbbb;
+       border-radius: .4em;
+       margin: 15% 0%;
+       border: solid black 1px;
+   }
+   .speech-bubble:hover{
+       transform: scale(1.1);
+       transition: 1s;
+   }
+   
+   .triangle{
+       position: absolute;
+       bottom: -9%;
+       left: 10%;
+       border: 1px solid black;
+       width: 30px;
+       height: 30px;
+       transform: rotate(45deg);
+       background-color:#bbbbbb ;
+       border-top: none;
+       border-left: none;
+   }
+   .posteur{
+       height: 10vh;
+       border-radius: 50% 50% 50% 50%;
+       
+       
+   }
+   .posteurun{ 
+       background-image: url("../img/Warstwa787.jpg");
+       background-position-x: -2.5vh;
+       background-size: 35vh;
+   }
+   .posteurdeux{
+       background-image: url("../img/Warstwa882.jpg");
+       background-position-x: -7vh;
+       background-size: 22vh;
+   }
+   
+   .posteur:hover{
+       transform: scale(1.3);
+       transition: 1s;
+   }
+   
+   .sectionquatre{
+       height: auto;
+       background: linear-gradient(0deg, rgb(253, 111, 45) 0%, rgba(217,6,71,1) 93%);
+   
+   }
+   .fonctionnalite{
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       color:white;
+   }
+   .fonctionnalite img{
+       padding-top: 2%;
+       height: 12vh;
+   }
+   
+   .sectioncinq{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+   }
+   .sectioncinq h2{
+       margin-top: 5%;
+   }
+   .mail{
+       display: flex;
+       flex-direction: row;
+       margin: 5%;
+       background-color: rgba(179, 177, 177, 0.74);
+       border-radius: 50px;
+       
+   }
+   .sectioncinq label{
+       color: rgb(82, 81, 81);
+   }
+   .btnsub{
+       position: relative;
+       top: 40%;
+       height: 30%;
+       border-radius: 50px;
+       color:white;
+       background-color: red;
+      
+   }
+   
+   .hash{ 
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(217,6,71,1) 49%);
+       font-weight: bold;
+       height: 15vh;
+       border-radius: 25px;
+   }
+   
+   .hash p{
+      font-size: 3.5em;
+   }
